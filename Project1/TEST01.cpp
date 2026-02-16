@@ -1,33 +1,33 @@
-#include <iostream>
-
-#define DEFAULT_SIZE 10 // C-NOTATION
-
-using namespace std;
-int main() {
-	//int numbers[10];
-	//int vector[10];
-
-	// 1)
-	//int array[10];
-
-	//int length = 10;
-	const int SIZE = 10;  // C++ notation
-	int array[SIZE];
-
-	int index = 0;
-
-	for (int index = 0; index < SIZE; index++)
-	{
-		array[index] = 0;	//0
-
-	}
-
-	for (int index = 0; index < SIZE; index++)
-	{
-		cout << '[' << index + 1 << "] --> " << array[index] << endl;	//0
-
-	}
-
-	return 0;
-}
-
+//#include <iostream>
+//
+//#define DEFAULT_SIZE 10 // C-NOTATION
+//
+//using namespace std;
+//int main() {
+//	//int numbers[10];
+//	//int vector[10];
+//
+//	// 1)
+//	//int array[10];
+//
+//	//int length = 10;
+//	const int SIZE = 10;  // C++ notation
+//	int array[SIZE];
+//
+//	int index = 0;
+//
+//	for (int index = 0; index < SIZE; index++)
+//	{
+//		array[index] = 0;	//0
+//
+//	}
+//
+//	for (int index = 0; index < SIZE; index++)
+//	{
+//		cout << '[' << index + 1 << "] --> " << array[index] << endl;	//0
+//
+//	}
+//
+//	return 0;
+//}
+//
